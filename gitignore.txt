@@ -1,0 +1,39 @@
+# Ignore Python virtual environment
+venv/
+env/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment variables and secrets
+.env
+
+# Ignore compiled files
+*.o
+*.so
+*.out
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Ignore specific paths
+/path/to/ignore/
+
+#Ignore Homework and Notes
+random_forest_classifier_default_42.sav
+tree_classifier.sav
+Cheat Sheet.ipynb
+
+#Ignore Libraries
+libnccl.so.2
+libxgboost.so
